@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Food</title>
+</head>
+<body>
+    <!-- header or navbar -->
+    <header class="header">
+        <!-- logo -->
+        <a href="#" class="logo"><i class="fa-solid fa-book"></i> Book</a>
+
+        <!-- navigation -->
+         <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#books">Books</a>
+            <a href="#categories">Categories</a>
+            <a href="#contacts">Contacts</a>
+         </nav>
+
+         <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+         </div>
+
+         <form action="" class="search-form">
+           <input type="search" id="search-box" placeholder="Search here...">
+           <label for="search-box" class="fas fa-search"></label>
+         </form>
+
+         <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/assets/autumn.png" alt="">
+                <div class="content">
+                    <h3>Autumn</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/assets/business.png" alt="">
+                <div class="content">
+                    <h3>Business</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="/assets/dreams.png" alt="">
+                <div class="content">
+                    <h3>Dreams</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">Qty: 1</span>
+                </div>
+            </div>
+            <div class="total"> Total: $19.69/- </div>
+            <a href="#" class="btn">Checkout</a>
+         </div>
+
+
+         <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <p>Forget your password<a href="#"> click here</a></p>
+            <p>Don't have an account<a href="#"> Create now</a></p>
+            <input type="submit" value="login now" class="btn">
+         </form>
+    </header>
+    <!-- header or navbar -->
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <span>Our books</span>
+            <h3>Business</h3>
+            <p>Praesent dapibus neque id cursus faucibus tortor neque egestas auguae eu vulputate magna eros eu erat.
+                Aliquam erat volutpat. Nam dui mi tincidunt quis accumsan porttitor facilisis luctus metus.
+            </p>
+            <a href="#" class="btn">Order now</a>
+        </div>
+        <div class="image">
+            <img src="/assets/autumn.png" alt="">
+        </div>
+    </section>
+    <!-- end -->
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <h1 class="heading">About</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./assets/about1.png" alt="">
+                <h3>Delivery</h3>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. 
+                    Fringilla viverra posuere arcu tempor facilisis himenaeos ac. 
+                    Dui ornare diam taciti nisl viverra laoreet velit mattis.
+                </p>
+                <a href="#">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./assets/book2.png" alt="">
+                <h3>Quality</h3>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. 
+                    Fringilla viverra posuere arcu tempor facilisis himenaeos ac. 
+                    Dui ornare diam taciti nisl viverra laoreet velit mattis.
+                </p>
+                <a href="#">Read more</a>
+            </div>
+
+
+            <div class="box">
+                <img src="./assets/book3.png" alt="">
+                <h3>Service</h3>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. 
+                    Fringilla viverra posuere arcu tempor facilisis himenaeos ac. 
+                    Dui ornare diam taciti nisl viverra laoreet velit mattis.
+                </p>
+                <a href="#">Read more</a>
+            </div>
+
+            <div class="box">
+                <img src="./assets/family.png" alt="">
+                <h3>Time</h3>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. 
+                    Fringilla viverra posuere arcu tempor facilisis himenaeos ac. 
+                    Dui ornare diam taciti nisl viverra laoreet velit mattis.
+                </p>
+                <a href="#">Read more</a>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- end -->
+
+    <!-- footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We provide the best books for you. Learn more about our services and explore our collection.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: support@bookstore.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Bookstore. All rights reserved.</p>
+    </div>
+</footer>
+<!-- end footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
